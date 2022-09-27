@@ -36,7 +36,8 @@ print(row_two)
 rev = myArray[1]
 print(rev[::-1])
 
-
+# sub matrix, bottom right 2x2
+two_by_two = myArray[1, 5:7], myArray[2, 5:7]
 
 
 
