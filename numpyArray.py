@@ -38,9 +38,12 @@ print(rev[::-1])
 
 # sub matrix, bottom right 2x2
 two_by_two = myArray[1, 5:7], myArray[2, 5:7]
+print(two_by_two)
 
 # bottom left 2x2 array
 bottom_left_array = myArray[1, 0:2], myArray[2, 0:2]
+print(bottom_left_array)
 
 #  3x3 sub-array in the middle of A
 three_by_three = myArray[0, 2:5], myArray[1, 2:5], myArray[2, 2:5]
+print(three_by_three)
