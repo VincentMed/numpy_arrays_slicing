@@ -39,5 +39,6 @@ print(rev[::-1])
 # sub matrix, bottom right 2x2
 two_by_two = myArray[1, 5:7], myArray[2, 5:7]
 
-
+# bottom left 2x2 array
+bottom_left_array = myArray[1, 0:2], myArray[2, 0:2]
 
