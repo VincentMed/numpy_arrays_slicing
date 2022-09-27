@@ -45,5 +45,5 @@ bottom_left_array = A[1, 0:2], A[2, 0:2]
 print(bottom_left_array)
 
 #  3x3 sub-array in the middle of A
-three_by_three = A[0, 2:5], A[1, 2:5], A[2, 2:5]
+three_by_three = A[:,2:5]
 print(three_by_three)
