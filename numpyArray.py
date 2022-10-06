@@ -37,12 +37,17 @@ rev = A[1]
 print(rev[::-1])
 
 # sub matrix, bottom right 2x2
-two_by_two = A[1, 5:7], A[2, 5:7]
+two_by_two = A[1, 5:7]
+two_by_two_b = A[2, 5:7]
 print(two_by_two)
+print(two_by_two_b)
+
 
 # bottom left 2x2 array
-bottom_left_array = A[1, 0:2], A[2, 0:2]
+bottom_left_array = A[1, 0:2]
+bottom_left_array_b = A[2, 0:2]
 print(bottom_left_array)
+print(bottom_left_array_b)
 
 #  3x3 sub-array in the middle of A
 three_by_three = A[:,2:5]
